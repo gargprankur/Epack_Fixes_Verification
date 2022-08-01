@@ -29,6 +29,7 @@ class EpackMain(BaseClass):
         self._formatter = logging.Formatter('%(asctime)s %(levelname)s %(message)s ')
 
         file_handler.setFormatter(self._formatter)
+	print("This is the first change after first commit")
 
 
 
